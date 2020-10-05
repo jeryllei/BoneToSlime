@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "minecraft:bone_block"
+  },
+  "result": "minecraft:slime_block",
+  "experience": 1.2,
+  "cookingtime": 200
+}
