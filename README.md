@@ -6,4 +6,6 @@ Supported Forge versions:
 
 1.15.2
 
-Adds smelting recipe for bones to slimeballs.
+Adds smelting and smoker recipe for bones to slime balls.
+
+Also allows smelting of bone blocks to slime blocks.
