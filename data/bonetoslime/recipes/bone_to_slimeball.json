@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minecraft:bone"
-  },
-  "result": "minecraft:slime_ball",
-  "experience": 0.4,
-  "cookingtime": 200
-}
