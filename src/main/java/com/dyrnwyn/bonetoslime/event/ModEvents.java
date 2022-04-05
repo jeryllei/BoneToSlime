@@ -46,6 +46,16 @@ public class ModEvents {
                     new ItemStack(Items.EMERALD, 1), stack, 12, 4, 0.05F)
             ));
         }
+
+        if (event.getType() == VillagerProfession.BUTCHER) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.BONE_BLOCK.asItem(), 5);
+            int villagerLevel = 2;
+
+            trades.get(villagerLevel).add(((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 3), stack, 8, 9, 0.07F)
+            ));
+        }
     }
 
 }
